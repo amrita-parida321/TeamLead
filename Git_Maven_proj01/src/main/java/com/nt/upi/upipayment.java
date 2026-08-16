@@ -3,7 +3,7 @@ package com.nt.upi;
 public class upipayment {
 	public String dopayment(long phone , double amount)
 	{
-		System.out.println("UPI payment : dopayment()");
+		System.out.println("UPI payment : doPayment()");
 		return amount+ "Amount is transferred to " + phone ;
 	}
 
