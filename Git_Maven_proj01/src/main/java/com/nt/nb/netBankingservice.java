@@ -7,7 +7,7 @@ public class netBankingservice {
 		System.out.println("hello world");
 		System.out.println("adding new line to syso");
 		if(srcAcno <0 || destAcco < 0 || amount < 0)
-			throw new IllegalArgumentException("Invalid Input");
+			throw new IllegalArgumentException("Invalid Inputs");
 		return amount+" amount transferred from " +srcAcno +"to "+destAcco;
 	}
 	public void meth1(int x, int y) {
