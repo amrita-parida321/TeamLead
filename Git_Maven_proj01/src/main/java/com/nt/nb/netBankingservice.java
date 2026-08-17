@@ -8,6 +8,9 @@ public class netBankingservice {
 			throw new IllegalArgumentException("Invalid Inputs");
 		return amount+" amount transferred from " +srcAcno +"to "+destAcco;
 	}
+	public void meth1(int x, int y) {
+		System.out.println("addition perform " + (x+y));
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
