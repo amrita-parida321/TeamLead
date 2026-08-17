@@ -4,6 +4,8 @@ public class upipayment {
 	public String dopayment(long phone , double amount)
 	{
 		System.out.println("UPI payment : doPayment()");
+		if(phone <0 || amount<0)
+			throw new IllegalArgumentException("invalid input");
 		return amount+ "Amount is transferred to " + phone ;
 	}
 
