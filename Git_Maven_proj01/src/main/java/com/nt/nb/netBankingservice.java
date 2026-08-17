@@ -10,7 +10,7 @@ public class netBankingservice {
 		return amount+" amount transferred from " +srcAcno +"to "+destAcco;
 	}
 	public void meth1(int x, int y) {
-		System.out.println("addition perform " + (x+y));
+		System.out.println("addition perform dor 2 variAbles " + (x+y));
 	}
 
 	public static void main(String[] args) {
