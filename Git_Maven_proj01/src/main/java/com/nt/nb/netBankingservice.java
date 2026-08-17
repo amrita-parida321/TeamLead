@@ -4,6 +4,8 @@ public class netBankingservice {
 	
 	public String doPayment(long srcAcno , long destAcco, double amount) {
 		System.out.println("netBankingservice.doPayment()");
+		if(srcAcno <0 || destAcco < 0 || amount < 0)
+			throw new IllegalArgumentException("Invalid Inputs");
 		return amount+" amount transferred from " +srcAcno +"to "+destAcco;
 	}
 
